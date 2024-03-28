@@ -4,7 +4,7 @@ const page = ({params}) => {
   return (
     <main>
         <h1>BLog Post</h1>
-        <h2>{params.slug}</h2>
+        <h2>{params.slug.shit}</h2>
     </main>
   )
 }
@@ -12,5 +12,5 @@ const page = ({params}) => {
 export default page
 
 // fetch the blog post in this one of cstom not found
-// well then 
+
 

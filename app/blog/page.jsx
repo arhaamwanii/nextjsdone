@@ -6,12 +6,12 @@ const page = () => {
     <h1>The Blog</h1>
     <p>
       <Link href={`/blog/post-1`}>
-        Post 1
+          this
       </Link> 
     </p>   
     <p>
       <Link href="/blog/post-2">
-        Post 2
+          this is the name of the entery
       </Link> 
     </p>
   </main>
@@ -23,7 +23,8 @@ export default page
 // WHAT WE WANT TO DO - 
 // get the data from the background on the component map  
 // take that data
-// inside that we call a list item where for the path we pass in whatever we want
+// inside that we call a list item where we pass in the route 
+// in that case we have a route which exist and then we also have the
 
 
 
