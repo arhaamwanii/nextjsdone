@@ -7,7 +7,6 @@ export default function AboutPage() {
         <h1>
           About Us
         </h1>
-        
       </main>
     </>
   )
